@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+     
+     
      .container h1{
                   font-size: 30px;
                   color: #FFFFFF; 
@@ -51,7 +57,17 @@
 .container {
 margin-bottom: 25px;
 margin-right: 80px;
+margin: 0 auto;
 
+}
+
+@media (max-width: 768px) {
+    #container-wrapper,
+    #container2,
+    #container3,
+    #containercheck {
+        width: 90%;
+    }
 }
 
     #container-wrapper {
@@ -99,13 +115,7 @@ margin-right: 80px;
                 top: -305px;
 }
 
-#mensagem {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #000;
+footer {
+    font-size: 14px;
 }
 

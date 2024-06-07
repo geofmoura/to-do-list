@@ -1,23 +1,24 @@
-const checksim = document.getElementById('checksim');
-const checknao = document.getElementById('checknao');
-const mensagemsim = document.getElementById('mensagemsim');
-const mensagemnao = document.getElementById('mensagemnao');
+window.onload = function() {
+    console.log("Script carregado");
 
+    var checksSim = document.getElementById('checksim');
+    var checksNao = document.getElementById('checknao');
 
-checkboxsim.addEventListener('click', function() {
-    if (checkboxsim.checked) {
-        mensagemsim.innerText = 'UAU, VOCÊ É FERA!';
-
+    if (checksSim) {
+        checksSim.addEventListener('click', function() {
+            console.log('Checkbox "sim" clicado');
+            showMessage('Você clicou em "sim"');
+        });
     } else {
-        mensagemsim.innerText = '';
+        console.log('Checkbox "sim" não encontrado');
     }
-});
 
-checkboxnao.addEventListener('click', function() {
-    if (checkboxnao.checked) {
-        mensagemnao.innerText = 'POXA, VAMOS MELHORAR!';
+    if (checksNao) {
+        checksNao.addEventListener('click', function() {
+            console.log('Checkbox "não" clicado');
+            showMessage('Você clicou em "não"');
+        });
     } else {
-        mensagemnao.innerText = '';
+        console.log('Checkbox "não" não encontrado');
     }
-});
-
+};
