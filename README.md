@@ -11,3 +11,9 @@
 ### Copiar código
 ### git clone https://github.com/geofmoura/to-do-list.git
 ### Abra o arquivo index.html no seu navegador.
+
+## Pré-requisitos
+### Não há pré-requisitos especiais além de um navegador web moderno.
+
+## Contribuindo
+### Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou issue para sugerir melhorias, corrigir bugs ou discutir novas funcionalidades.
